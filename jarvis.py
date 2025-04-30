@@ -27,7 +27,7 @@ voices = engine.getProperty('voices')
 # --- Gemini Integration Setup ---
 import google.generativeai as genai
 
-API_KEY = 'AIzaSyBMurwyrBQIRlf7xU9y7ew63nHtcjKkU9Y' # <-- REPLACE WITH YOUR ACTUAL GEMINI API KEY
+API_KEY = 'API-KEY' # <-- REPLACE WITH YOUR ACTUAL GEMINI API KEY
 
 if not API_KEY or API_KEY == 'YOUR_ACTUAL_GEMINI_API_KEY':
     print("Error: GEMINI_API_KEY is not set or is still the placeholder.")
